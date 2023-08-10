@@ -1,2 +1,4 @@
-# prints "Hello World!" to the console
-print("Hello World!")
+my_function <- function() { # create a function with the name my_function
+  print("Hello World!")
+}
+myfunction()
