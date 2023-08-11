@@ -15,8 +15,4 @@ write.csv(data, file = file_path, row.names = FALSE)
 return_csvfilename <- function() {
   return(cat(csvfilename))
 }
-# return_csvfilename()
-blah <- function() {
-  return("Hi bozo")
-}
-blah()
+return_csvfilename()
