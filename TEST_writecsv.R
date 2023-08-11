@@ -13,6 +13,6 @@ file_path <- file.path(path, csvfilename)
 write.csv(data, file = file_path, row.names = FALSE)
 
 return_csvfilename <- function() {
-  return(csvfilename)
+  return(cat(csvfilename))
 }
 return_csvfilename()
